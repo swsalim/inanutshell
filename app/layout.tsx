@@ -1,4 +1,3 @@
-import { AnalyticsWrapper } from '@/components/Analytics';
 import clsx from 'clsx';
 import { GeistSans } from 'geist/font/sans';
 import { Metadata } from 'next';
@@ -126,7 +125,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <body className="flex h-full flex-col bg-stone-50 font-sans dark:bg-black">
         {children}
-        <AnalyticsWrapper />
 
         <script async src="https://stats.yuurrific.com/latest.js"></script>
         <script async src="https://stats.yuurrific.com/auto-events.js"></script>
