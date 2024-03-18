@@ -1,5 +1,3 @@
-const { withContentlayer } = require('next-contentlayer');
-
 const securityHeaders = [
   {
     key: 'Strict-Transport-Security',
@@ -31,8 +29,7 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    return [
-    ];
+    return [];
   },
   webpack: (config) => {
     config.module.rules.push({
@@ -49,4 +46,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withContentlayer(nextConfig);
+module.exports = nextConfig;
