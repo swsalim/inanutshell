@@ -54,7 +54,7 @@ const projects: {
     description:
       'OpenGraph is the easiest way to preview and generate open graph meta tags for any website.',
     link: {
-      href: 'https://www.opengraph.xyz/?ref=yuurrific',
+      href: 'https://www.opengraph.xyz/?ref=inanutshell',
       label: 'opengraph.xyz',
       target: '_blank',
     },
@@ -66,7 +66,7 @@ const projects: {
     description:
       'Need medical assistance? Find the best health care providers in your Singapore and check out its opening hours and location!',
     link: {
-      href: 'https://www.clinicgeek.com/?ref=yuurrific',
+      href: 'https://www.clinicgeek.com/?ref=inanutshell',
       label: 'clinicgeek.com',
       target: '_blank',
     },
@@ -77,7 +77,7 @@ const projects: {
     description:
       'Renunciation of Indonesian citizenship process changed in 2020. This site aims to answer all your questions on the new process.',
     link: {
-      href: 'https://www.byeindonesia.com/?ref=yuurrific',
+      href: 'https://www.byeindonesia.com/?ref=inanutshell',
       label: 'byeindonesia.com',
       target: '_blank',
     },
@@ -87,7 +87,7 @@ const projects: {
     name: 'Cottage for Tots',
     description: 'Nurturing Young Minds with Playful Learning',
     link: {
-      href: 'https://www.cottagefortots.com/?ref=yuurrific',
+      href: 'https://www.cottagefortots.com/?ref=inanutshell',
       label: 'cottagefortots.com',
       target: '_blank',
     },
@@ -97,7 +97,7 @@ const projects: {
     name: 'Mainan',
     description: 'Learn Through Play',
     link: {
-      href: 'https://www.mainan.fun/?ref=yuurrific',
+      href: 'https://www.mainan.fun/?ref=inanutshell',
       label: 'mainan.fun',
       target: '_blank',
     },
@@ -107,7 +107,7 @@ const projects: {
     name: 'Water a Day',
     description: 'Calculate Your Optimal Daily Hydration Needs in Second',
     link: {
-      href: 'https://www.wateraday.com/?ref=yuurrific',
+      href: 'https://www.wateraday.com/?ref=inanutshell',
       label: 'wateraday.com',
       target: '_blank',
     },
