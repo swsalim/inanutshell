@@ -1,8 +1,8 @@
 'use client';
 
-import { ImageKit } from '@/components/ImageKit';
 import { Popover, Transition } from '@headlessui/react';
 import clsx from 'clsx';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import type { ReactNode } from 'react';
@@ -251,9 +251,8 @@ function Avatar({
       aria-label="Home"
       className={clsx(className, 'pointer-events-auto')}
       {...props}>
-      <ImageKit
-        directory="Yuurrific"
-        src="logo.png"
+      <Image
+        src="/images/logos/yuurrific.png"
         alt="Yuurrific"
         width={300}
         height={300}
@@ -447,10 +446,6 @@ export function Header() {
                     <Avatar />
                   </AvatarContainer>
                 )}
-              </div>
-              <div className="flex flex-1 justify-end md:justify-center">
-                <MobileNavigation className="pointer-events-auto md:hidden" />
-                <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
               <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto">

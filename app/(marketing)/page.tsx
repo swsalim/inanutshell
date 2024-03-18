@@ -1,13 +1,13 @@
 import { Card } from '@/components/Card';
-import { ImageKit } from '@/components/ImageKit';
 import { PageHeader } from '@/components/PageHeader';
 import { siteConfig } from '@/config/site';
 import { Metadata } from 'next';
+import Image from 'next/image';
 
 const config = {
-  title: 'Projects I Made',
-  description: 'Things I’ve made trying to put my dent in the universe.',
-  url: '/projects',
+  title: 'List of Awesome Things',
+  description: 'Curated list of SaaS projects, tools, and websites.',
+  url: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
 };
 
 export const metadata: Metadata = {
@@ -58,7 +58,7 @@ const projects: {
       label: 'opengraph.xyz',
       target: '_blank',
     },
-    logo: 'opengraph.png',
+    logo: '/images/logos/opengraph.png',
     badge: 'sold',
   },
   {
@@ -70,7 +70,7 @@ const projects: {
       label: 'clinicgeek.com',
       target: '_blank',
     },
-    logo: 'clinicgeek.png',
+    logo: '/images/logos/clinicgeek.png',
   },
   {
     name: 'Bye Indonesia',
@@ -81,7 +81,7 @@ const projects: {
       label: 'byeindonesia.com',
       target: '_blank',
     },
-    logo: 'byeindonesia.png',
+    logo: '/images/logos/byeindonesia.png',
   },
   {
     name: 'Cottage for Tots',
@@ -91,7 +91,7 @@ const projects: {
       label: 'cottagefortots.com',
       target: '_blank',
     },
-    logo: 'cottage.png',
+    logo: '/images/logos/cottage.png',
   },
   {
     name: 'Mainan',
@@ -101,7 +101,7 @@ const projects: {
       label: 'mainan.fun',
       target: '_blank',
     },
-    logo: 'mainan.png',
+    logo: '/images/logos/mainan.png',
   },
   {
     name: 'Water a Day',
@@ -111,7 +111,7 @@ const projects: {
       label: 'wateraday.com',
       target: '_blank',
     },
-    logo: 'wateraday.png',
+    logo: '/images/logos/wateraday.png',
   },
 ];
 
@@ -141,8 +141,7 @@ export default function ProjectsPage() {
             return (
               <Card as="li" key={project.name}>
                 <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-50 dark:ring-0">
-                  <ImageKit
-                    directory="Yuurrific/Logos"
+                  <Image
                     src={project.logo}
                     alt={project.name}
                     width={200}

@@ -24,14 +24,7 @@ export function Footer() {
       <OuterContainer>
         <div className="border-t border-stone-100 pb-16 pt-10 dark:border-stone-700/40">
           <InnerContainer>
-            <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-              <div className="flex gap-6 text-sm font-medium text-stone-800 dark:text-stone-200">
-                <NavLink href="/about">About</NavLink>
-                <NavLink href="/write">Articles</NavLink>
-                <NavLink href="/projects">Projects</NavLink>
-                <NavLink href="/uses">Uses</NavLink>
-                <NavLink href="/disclosure">Disclosure</NavLink>
-              </div>
+            <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
               <p className="text-center text-sm text-stone-600 md:text-right dark:text-stone-400">
                 &copy; {new Date().getFullYear()} Yuurrific. All rights
                 reserved.
