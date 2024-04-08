@@ -104,7 +104,7 @@ const projects: {
     logo: '/images/logos/mainan.png',
   },
   {
-    name: 'Water a Day',
+    name: 'How Much Water Should You Drink Daily?',
     description: 'Calculate Your Optimal Daily Hydration Needs in Second',
     link: {
       href: 'https://www.wateraday.com/?ref=inanutshell',
@@ -112,6 +112,17 @@ const projects: {
       target: '_blank',
     },
     logo: '/images/logos/wateraday.png',
+  },
+  {
+    name: 'Forecasting Sunshine and Showers for You',
+    description:
+      'Tomorrow’s Weather Forecast, Today’s Advantage - Plan Your Day Right, Come Rain or Shine',
+    link: {
+      href: 'https://www.willitraintomorrow.com/?ref=inanutshell',
+      label: 'willitraintomorrow.com',
+      target: '_blank',
+    },
+    logo: '/images/logos/willitraintomorrow.png',
   },
 ];
 

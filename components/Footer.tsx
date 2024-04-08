@@ -26,8 +26,13 @@ export function Footer() {
           <InnerContainer>
             <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
               <p className="text-center text-sm text-stone-600 md:text-right dark:text-stone-400">
-                &copy; {new Date().getFullYear()} Yuurrific. All rights
-                reserved.
+                &copy; {new Date().getFullYear()}{' '}
+                <a
+                  href="https://www.yuurrific.com"
+                  className="inline-block font-medium underline underline-offset-4">
+                  Yuurrific
+                </a>
+                . All rights reserved.
                 <span className="mt-2 block text-stone-600 md:ml-2 md:mt-0 md:inline-block dark:text-inherit">
                   Privacy-friendly analytics by{' '}
                   <a
